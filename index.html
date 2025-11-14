@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KENTS Service - O'yinlar, Kripto va Telegram Mahsulotlari</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="https://example.com/your-logo.png" type="image/png">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">KENTS Service 👑</h1>
+            <button id="menu-toggle" class="menu-toggle" aria-label="Menyuni ochish">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="#home">Bosh sahifa 🏠</a></li>
+                    <li><a href="#games">O'yinlar 🎮</a></li>
+                    <li><a href="#crypto">Kripto 💰</a></li>
+                    <li><a href="#telegram">Telegram 💬</a></li>
+                    <li><a href="#about">Biz haqimizda ℹ️</a></li>
+                    <li><a href="#news">Yangiliklar 📰</a></li> 
+                    <li><a href="#contact">Aloqa 📞</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Sizning O'yinlar, Kripto va Telegram Dunyosidagi Hamkoringiz! ✨</h2>
+            <p>O'yinlarga tez va ishonchli donat, kriptovalyutalar xaridi, Telegram uchun premium xizmatlar. Eng yaxshi narxlar shu yerda! 👇</p>
+            <a href="#games" class="btn">Donat qilish 🚀</a>
+        </div>
+    </section>
+
+    <section id="games" class="products-section">
+        <div class="container">
+            <h2>O'yinlar uchun Donat 🎮</h2>
+            <div class="product-grid">
+                <div class="product-card" id="standoff-product-card">
+                    <img src="standoff.jpg" alt="Standoff 2" class="product-image">
+                    <h3>Standoff 2 💥</h3>
+                    <p>Gold'larga tez va ishonchli donat.</p>
+                    <button class="buy-btn" id="open-standoff-modal">Sotib olish</button>
+                </div>
+                <div class="product-card" id="pubg-product-card">
+                    <img src="pubg.jpg" alt="PUBG Mobile" class="product-image">
+                    <h3>PUBG Mobile 🐔</h3>
+                    <p>UC'larga tezkor donat xizmati.</p>
+                    <button class="buy-btn" id="open-pubg-modal">Sotib olish</button>
+                </div>
+                <div class="product-card" id="freefire-product-card">
+                    <img src="Free Fire.jpg" alt="Free Fire" class="product-image">
+                    <h3>Free Fire 🔥</h3>
+                    <p>Diamond'larga tezkor donat xizmati.</p>
+                    <button class="buy-btn" id="open-freefire-modal">Sotib olish</button>
+                </div>
+                <div class="product-card" id="brawl-product-card">
+                    <img src="Brawl stars.jpg" alt="Brawl Stars" class="product-image">
+                    <h3>Brawl Stars ⭐️</h3>
+                    <p>Gems va Coin'larga ishonchli donat.</p>
+                    <button class="buy-btn" id="open-brawl-modal">Sotib olish</button>
+                </div>
+                <div class="product-card" id="mobile-legends-product-card">
+                    <img src="mobile legends.jpg" alt="Mobile Legends" class="product-image">
+                    <h3>Mobile Legends 🗡️</h3>
+                    <p>Diamond'larga tezkor donat xizmati.</p>
+                    <button class="buy-btn" id="open-mobile-legends-modal">Sotib olish</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="crypto" class="products-section">
+        <div class="container">
+            <h2>Kriptovalyutalar 💰</h2>
+            <div class="product-grid">
+                <div class="product-card" id="toncoin-product-card">
+                    <img src="toncoin.jpg" alt="TON Coin" class="product-image">
+                    <h3>TON Coin 💎</h3>
+                    <p>Tezkor va xavfsiz TON (The Open Network) xaridi.</p>
+                    <button class="buy-btn" id="open-toncoin-modal">Sotib olish</button>
+                </div>
+                <div class="product-card" id="usdt-product-card">
+                    <img src="usdt.jpg" alt="USDT" class="product-image">
+                    <h3>USDT (Tether) 💵</h3>
+                    <p>Eng ishonchli stabilkoin. Sizning virtual valyutangiz.</p>
+                    <button class="buy-btn" id="open-usdt-modal">Sotib olish</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="telegram" class="products-section">
+        <div class="container">
+            <h2>Telegram Mahsulotlari 💬</h2>
+            <div class="product-grid">
+                <div class="product-card" id="premium-product-card">
+                    <img src="telegram premium.jpg" alt="Telegram Premium" class="product-image">
+                    <h3>Telegram Premium 🌟</h3>
+                    <p>Premium xususiyatlardan bahramand bo'ling.</p>
+                    <button class="buy-btn" id="open-premium-modal">Sotib olish</button>
+                </div>
+
+                <div class="product-card" id="stars-product-card">
+                    <img src="telegram stars.jpg" alt="Telegram Stars" class="product-image">
+                    <h3>Telegram Stars ⭐</h3>
+                    <p>Telegram ilovalari uchun universal valyuta.</p>
+                    <button class="buy-btn" id="open-stars-modal">Sotib olish</button>
+                </div>
+                
+                <div class="product-card" id="virtual-numbers-product-card">
+                    <img src="telegram numbers.jpg" alt="Virtual Raqamlar" class="product-image">
+                    <h3>Virtual Telegram Raqamlar 📱</h3>
+                    <p>Xorijiy virtual raqamlar orqali maxfiylikni saqlang.</p>
+                    <button class="buy-btn" id="open-virtual-numbers-modal">Sotib olish</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="info-section">
+        <div class="container">
+            <h2>Biz haqimizda 🚀</h2>
+            <p><strong>KENTS Service</strong> - bu sizning raqamli ehtiyojlaringizni tez, ishonchli va arzon narxda qondirish uchun yaratilgan onlayn xizmat. Biz shunchaki magazin emasmiz, balki o'yin va raqamli dunyodagi eng qulay hamkoringizmiz! 🤝</p>
+            
+            <p>Biz nimalarga kafolat beramiz?</p>
+            <ul>
+                <li>⚡️ <strong>Tezkor Xizmat:</strong> Barcha donat va xaridlar 5 daqiqa ichida amalga oshiriladi.</li>
+                <li>🛡️ <strong>Xavfsizlik:</strong> Sizning ma'lumotlaringiz va hisoblaringiz biz bilan to'liq himoyada.</li>
+                <li>💎 <strong>Eng Arzon Narxlar:</strong> Biz doimo bozordagi eng raqobatbardosh narxlarni taklif qilamiz.</li>
+                <li>🎮 <strong>Keng Assortiment:</strong> Eng mashhur o'yinlar (Standoff 2, PUBG, MLBB) dan tortib, Telegram Stars va Kriptovalyutalargacha barchasi bor!</li>
+                <li>⭐️ <strong>24/7 Qo'llab-quvvatlash:</strong> Savollaringizga istalgan vaqtda javob beramiz.</li>
+            </ul>
+
+            <p class="mt-20">Raqamli xarid qilishning yangi darajasini biz bilan his qiling! 🎉</p>
+        </div>
+    </section>
+    
+    <section id="news" class="info-section news-section">
+        <div class="container">
+            <h2>Yangiliklar 📰</h2>
+            <p>Barcha **yangi narxlar**, **aksiya va skidkalar** haqidagi ma'lumotlarni birinchi bo'lib bizning rasmiy Telegram kanalimizda kuzatib boring! 🔔</p>
+            
+            <a href="https://t.me/KentsServic" target="_blank" class="btn news-btn">
+                Telegram kanalimizga o'tish ➡️
+            </a>
+        </div>
+    </section>
+
+    <section id="contact" class="info-section">
+        <div class="container">
+            <h2>Aloqa 📞</h2>
+            <p>Savollaringiz bormi? Biz bilan bog'laning:</p>
+            <p>Email: <a href="mailto:ali8686it@gmail.com">ali8686it@gmail.com 📧</a></p>
+            <p>Telegram: <a href="https://t.me/kentservice_support" target="_blank">@kentservice_support 📱</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 KENTS Service. Barcha huquqlar himoyalangan. ✅</p>
+        </div>
+    </footer>
+
+    <div id="starsModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn stars-close-btn">&times;</span>
+            <div class="stars-modal-body">
+                <img src="telegram stars.jpg" alt="Telegram Stars" class="modal-image">
+                <h3>✨Telegram Stars (Rasmiy narxlardan arzon)✨</h3>
+                
+                <div class="stars-prices">
+                    <p><strong>% Skidka % 🤑</strong></p>
+                    <ul>
+                        <li>⭐️ 50 - 13.500 UZS 📉 (-5.26%)</li>
+                        <li>⭐️ 75 - 20.250 UZS 📉 (-5.26%)</li>
+                        <li>⭐️ 100 - 27.000 UZS 📉 (-5.26%)</li>
+                    </ul>
+                    <p><strong>% Bez Skidka % 💸</strong></p>
+                    <ul>
+                        <li>⭐️ 150 - 42.750 UZS</li>
+                        <li>⭐️ 200 - 57.000 UZS</li>
+                        <li>⭐️ 250 - 71.250 UZS</li>
+                    </ul>
+                    <p><strong>% Skidka % 🔥</strong></p>
+                    <ul>
+                        <li>⭐️ 500 - 125.000 UZS 📉 (-12.28%)</li>
+                        <li>⭐️ 1000 - 250.000 UZS 📉 (-12.28%)</li>
+                    </ul>
+                </div>
+                <p class="stars-note">⭐️ 50 stars dan yuqori bo'lgan stars olsangiz bo'ladi, albatta skidka ham qilib beramiz🙂</p>
+                
+                <a href="https://t.me/kentservice_support" target="_blank" class="stars-buy-link">
+                    <button class="buy-btn full-width-btn">Sotib olish uchun yozish ➡️</button>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <div id="premiumModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn premium-close-btn">&times;</span>
+            <div class="premium-modal-body">
+                <img src="telegram premium.jpg" alt="Telegram Premium" class="modal-image">
+                <h3>😎Telegram Premium Maxsus Takliflar😎</h3>
+                
+                <div class="premium-prices stars-prices"> 
+                    
+                    <p>💪<strong>Akkga kirib (Instant)</strong>💪</p>
+                    <ul>
+                        <li>⭐️ 1 oy - 45.000 so’m 💸</li>
+                        <li>⭐️ 1 yil - 307.000 so’m 💸</li>
+                    </ul>
+
+                    <p>🎁<strong>Akkga kirmasda (Sovg'a orqali)</strong>🎁</p>
+                    <ul>
+                        <li>🎁 3 oy - 173.000 so’m 💸</li>
+                        <li>🎁 6 oy - 233.000 so’m 💸</li>
+                        <li>🎁 1 yil - 402.000 so'm 💸</li>
+                    </ul>
+                </div>
+                
+                <a href="https://t.me/kentservice_support" target="_blank" class="premium-buy-link">
+                    <button class="buy-btn full-width-btn">Sotib olish uchun yozish ➡️</button>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <div id="standoffModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn standoff-close-btn">&times;</span>
+            <div class="game-modal-body">
+                <img src="standoff.jpg" alt="Standoff 2" class="modal-image">
+                <h3>Standoff 2 Gold Narxlari 🪙</h3>
+                
+                <div class="game-prices stars-prices"> 
+                    <ul>
+                        <li>💛 100 Gold - 13.000 so'm ✨</li>
+                        <li>💛 500 Gold - 60.000 so'm ✨</li>
+                        <li>💛 1000 Gold - 125.000 so'm ✨</li>
+                        <li>💛 2000 Gold - 250.000 so'm ✨</li>
+                        <li>💛 3000 Gold - 375.000 so'm ✨</li>
+                    </ul>
+                </div>
+                <p class="stars-note">Xoxlagan miqdoringizda donat bor ✅</p>
+
+                <a href="https://t.me/kentservice_support" target="_blank">
+                    <button class="buy-btn full-width-btn">Sotib olish uchun yozish ➡️</button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div id="pubgModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn pubg-close-btn">&times;</span>
+            <div class="game-modal-body">
+                <img src="pubg.jpg" alt="PUBG Mobile" class="modal-image">
+                <h3>🎮PUBG UC Narxlari (Arzon)🎮</h3>
+                
+                <div class="game-prices stars-prices"> 
+                    <ul>
+                        <li>💵 30 UC - 7.500 UZS ⚡️</li>
+                        <li>💵 60 UC - 13.000 UZS ⚡️</li>
+                        <li>💵 120 UC - 26.500 UZS ⚡️</li>
+                        <li>💵 325 UC - 60.000 UZS ⚡️</li>
+                        <li>💵 660 UC - 120.000 UZS ⚡️</li>
+                        <li>💵 1320 UC - 238.000 UZS ⚡️</li>
+                        <li>💵 1800 UC - 293.000 UZS ⚡️</li>
+                        <li>💵 3850 UC - 565.000 UZS ⚡️</li>
+                        <li>💵 8100 UC - 1.107.000 UZS ⚡️</li>
+                    </ul>
+                </div>
+                <p class="stars-note">Bundan katta UC ham tashaymiz ♾</p>
+
+                <a href="https://t.me/kentservice_support" target="_blank">
+                    <button class="buy-btn full-width-btn">Sotib olish uchun yozish ➡️</button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div id="mobileLegendsModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn mlbb-close-btn">&times;</span>
+            <div class="game-modal-body">
+                <img src="mobile legends.jpg" alt="Mobile Legends" class="modal-image">
+                <h3>💭 Mobile Legends Diamond Narxlari 💎</h3>
+                
+                <div class="game-prices stars-prices"> 
+                    <ul>
+                        <li>💎 35 Olmos - 11.111 UZS 🔄</li>
+                        <li>💎 88 Olmos - 18.888 UZS 🔄</li>
+                        <li>💎 132 Olmos - 28.888 UZS 🔄</li>
+                        <li>💎 264 Olmos - 48.888 UZS 🔄</li>
+                        <li>💎 440 Olmos - 79.999 UZS 🔄</li>
+                        <li>💎 734 Olmos - 155.555 UZS 🔄</li>
+                        <li>💎 933 Olmos - 161.666 UZS 🔄</li>
+                        <li>💎 1410 Olmos - 235.000 UZS 🔄</li>
+                    </ul>
+                </div>
+
+                <a href="https://t.me/kentservice_support" target="_blank">
+                    <button class="buy-btn full-width-btn">Sotib olish uchun yozish ➡️</button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div id="brawlStarsModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn brawl-close-btn">&times;</span>
+            <div class="game-modal-body">
+                <img src="Brawl stars.jpg" alt="Brawl Stars" class="modal-image">
+                <h3>🖼 Brawl Stars Gem Narxlari 🛒</h3>
+                
+                <div class="game-prices stars-prices"> 
+                    <ul>
+                        <li>💎 30 Gem - 30.000 UZS ✅️</li>
+                        <li>💎 80 Gem - 65.000 UZS ✅️</li>
+                        <li>💎 170 Gem - 120.000 UZS ✅️</li>
+                        <li>💎 360 Gem - 233.000 UZS ✅️</li>
+                        <li>💎 950 Gem - 548.000 UZS ✅️</li>
+                    </ul>
+                </div>
+
+                <a href="https://t.me/kentservice_support" target="_blank">
+                    <button class="buy-btn full-width-btn">Sotib olish uchun yozish ➡️</button>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <div id="freefireModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn freefire-close-btn">&times;</span>
+            <div class="game-modal-body">
+                <img src="Free Fire.jpg" alt="Free Fire" class="modal-image">
+                <h3>🔥 Free Fire Diamond Donat 🔥</h3>
+                
+                <div class="game-prices stars-prices"> 
+                    <p>🚧 **Xizmat sozlanmoqda...** 🚧</p>
+                    <ul>
+                        <li>⏳ Hozirda **Free Fire** uchun donat tizimi sozlanmoqda.</li>
+                        <li>⚙️ Tez orada barcha narxlar shu yerda e'lon qilinadi.</li>
+                        <li>🔔 Yangiliklardan xabardor bo'lish uchun bizning **Telegram kanalimiz**ga a'zo bo'ling!</li>
+                    </ul>
+                </div>
+
+                <a href="https://t.me/kentservice_support" target="_blank">
+                    <button class="buy-btn full-width-btn">Telegram kanalimiz 📢</button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="toncoinModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn toncoin-close-btn">&times;</span>
+            <div class="crypto-modal-body">
+                <img src="toncoin.jpg" alt="TON Coin" class="modal-image">
+                <h3>🤑TONCOIN Xaridi🤑</h3>
+                
+                <div class="crypto-prices stars-prices"> 
+                    <p>🔴TON NARXI HAR SOATDA TUSHIB📉 CHIQANI 📈 UCHUN UNGA NARX QOYISH QIYIN ⛔️</p>
+                    <p>⚡️SHUNING UCHUN **SOTIB OLISH** NI BOSN 🛡 NARXINI KELISHAMZ ⭐️</p>
+                    <p>💎ALBATTA ARZON NARXDA QBERAMA ✔️</p>
+                </div>
+
+                <a href="https://t.me/kentservice_support" target="_blank">
+                    <button class="buy-btn full-width-btn">Sotib olish uchun yozish ➡️</button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div id="usdtModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn usdt-close-btn">&times;</span>
+            <div class="crypto-modal-body">
+                <img src="usdt.jpg" alt="USDT" class="modal-image">
+                <h3>🤑USDT (Tether) Xaridi🤑</h3>
+                
+                <div class="crypto-prices stars-prices"> 
+                    <p>🔴USDT NARXI HAR SOATDA TUSHIB📉 CHIQANI 📈 UCHUN UNGA NARX QOYISH QIYIN ⛔️</p>
+                    <p>⚡️SHUNING UCHUN **SOTIB OLISH** NI BOSN 🛡 NARXINI KELISHAMZ ⭐️</p>
+                    <p>💎ALBATTA ARZON NARXDA QBERAMA ✔️</p>
+                </div>
+
+                <a href="https://t.me/kentservice_support" target="_blank">
+                    <button class="buy-btn full-width-btn">Sotib olish uchun yozish ➡️</button>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <div id="virtualNumbersModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn virtual-numbers-close-btn">&times;</span>
+            <div class="crypto-modal-body">
+                <img src="telegram numbers.jpg" alt="Virtual Raqamlar" class="modal-image">
+                <h3>🌍 Telegram Virtual Raqamlar 📱</h3>
+                
+                <div class="crypto-prices stars-prices"> 
+                    <p><strong>Raqam narxlari:</strong></p>
+                    <ul>
+                        <li>🇺🇿 UZB (O'zbekiston) - 15.000 UZS 🟢</li>
+                        <li>🇺🇸 USA (Amerika) - 11.500 UZS 🟢</li>
+                        <li>🇰🇪 KENIYA - 11.000 UZS 🟢</li>
+                        <li>🇮🇩 INDONEZIYA - 10.000 UZS 🟢</li>
+                        <li>🇧🇩 BANGLADESH - 10.000 UZS 🟢</li>
+                    </ul>
+                    <p class="stars-note">🔥 Hohlangan miqdorda xarid qilishingiz mumkin! Tezkor aktivatsiya.</p>
+                </div>
+
+                <a href="https://t.me/kentservice_support" target="_blank">
+                    <button class="buy-btn full-width-btn">Sotib olish uchun yozish ➡️</button>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
